@@ -1,0 +1,47 @@
+ .suggested-item {
+        border: 1px solid lightgray;
+        border-radius: 4px;
+        width: 31.5%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       margin-bottom: 2%;
+        
+        .suggested-image{
+            width: 100%;
+            height: 37vh;
+            background-color:  yellow;
+        }
+       .suggested-content {
+        padding-left: 20px;
+        padding-right: 20px;
+
+        }
+        .contenier-info{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+           
+         
+
+        .suggested-logo{
+            width: 45px;
+            height: 45px;
+            background-image: url('../../assets/img/smiling-girl.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .suggested-blok{
+            width: 65%;
+            display: flex;
+            justify-content: space-between;
+        .suggested-text {
+            color: gray;
+        }
+    }
+    }
+    }

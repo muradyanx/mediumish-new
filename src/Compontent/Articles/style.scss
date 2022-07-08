@@ -1,0 +1,32 @@
+.content{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+
+.user-info{
+
+
+    width: 64%;
+    height: max-content;
+   
+    display: flex;
+    justify-content: space-between;
+
+   .content-user-logo{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url('../../assets/img/smiling-girl.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+}
+
+}
+.image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

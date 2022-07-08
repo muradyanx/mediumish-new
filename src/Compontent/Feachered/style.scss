@@ -1,0 +1,33 @@
+
+.main-block{
+   width: 80%;
+   height: max-content;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-left: 10%;
+   border-top: 1px solid lightgray;
+
+ .item {
+    border: 1px solid lightgray;
+    width: 48.8%;
+    height: 250px;
+    margin-top: 20px;  
+    display: flex;
+    justify-content: space-between;
+    .image{
+        width: 500px;
+        height: 100%;
+        
+    } 
+    
+    .content{
+        padding: 20px;
+
+        .item-content{
+            color: gray;
+            padding-top: 4px;
+        }
+    }
+   
+}}

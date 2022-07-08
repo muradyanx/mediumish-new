@@ -1,0 +1,23 @@
+.header {
+
+    @font-face {
+        font-family: Righteous;  
+        src: url('./Righteous-Regular.ttf');  
+       }
+
+    width: 80%;
+    height: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+  
+    .mediumish {
+        font-family: Righteous;
+        
+    }
+
+    .p{
+        font-size: 20px;  
+        padding-bottom: 2%;
+       
+    }
+}
